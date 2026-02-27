@@ -22,8 +22,8 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install git python3 python3-pip -y
 pip install flask requests colorama
 git clone https://github.com/Root-Of-Hunter/Apps-Hack-
-cd FairbaseHACK
-python FairbaseHACK.py
+cd fairbasehack
+python fairbasehack.py
 
 ```
 
@@ -36,8 +36,8 @@ pkg install python git -y
 python -m pip install --upgrade pip
 pip install flask requests colorama
 git clone https://github.com/Root-Of-Hunter/Apps-Hack-
-cd FairbaseHACK
-python FairbaseHACK.py
+cd fairbasehack
+python fairbasehack.py
 
 ```
 
