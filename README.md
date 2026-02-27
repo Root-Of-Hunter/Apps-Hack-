@@ -16,9 +16,28 @@
 
 নিচের কমান্ডগুলো আপনার প্ল্যাটফর্ম অনুযায়ী একটির পর একটি কপি করে টার্মিনালে রান করুন।
 
+#### 🐧 For Linux Users
+```bash
+sudo apt update && sudo apt upgrade -y
+sudo apt install git python3 python3-pip -y
+pip install flask requests colorama
+git clone https://github.com/ZicoRox/ROHFireBaseHK.git
+cd ROHFireBaseHK
+
+```
+
 ### 📱 For Termux Users (Android)
 টার্মাক্স ইউজাররা নিচের কমান্ডগুলো সিরিয়ালি কপি করুন:
 
 **১. প্যাকেজ আপডেট করুন:**
 ```bash
 pkg update && pkg upgrade -y
+pkg install python git -y
+python -m pip install --upgrade pip
+pip install flask requests colorama
+cd ROHFireBaseHK
+
+
+
+
+
